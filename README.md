@@ -43,19 +43,7 @@ YouTube Music'i Chrome tarayıcınızın side panel'inde çalıştırın. Ayrı 
 - 🔊 butonuna tıklayarak dikey ses slider'ını açın
 
 ### Ekran Görüntüleri
-
-```
-┌─────────────────────────────────────┐
-│         YouTube Music               │
-│         (iframe)                    │
-│                                     │
-│                                     │
-├─────────────────────────────────────┤
-│ 🖼 Şarkı  ❤️ ➕ 📋 │ ⏮ ▶ ⏭ │ 🔊 │
-└─────────────────────────────────────┘
-```
-
----
+<a href="https://ibb.co/NgcNx7Pd"><img src="https://i.ibb.co/BH06Lwx5/Ekran-g-r-nt-s-2026-06-08-083851.png" alt="Ekran görüntüsü 2026 06 08 083851" border="0"></a>
 
 ## 🇬🇧 English
 
@@ -97,18 +85,7 @@ YouTube Music'i Chrome tarayıcınızın side panel'inde çalıştırın. Ayrı 
 
 ### Screenshots
 
-```
-┌─────────────────────────────────────┐
-│         YouTube Music               │
-│         (iframe)                    │
-│                                     │
-│                                     │
-├─────────────────────────────────────┤
-│ 🖼 Song  ❤️ ➕ 📋 │ ⏮ ▶ ⏭ │ 🔊 │
-└─────────────────────────────────────┘
-```
-
----
+<a href="https://ibb.co/NgcNx7Pd"><img src="https://i.ibb.co/BH06Lwx5/Ekran-g-r-nt-s-2026-06-08-083851.png" alt="Ekran görüntüsü 2026 06 08 083851" border="0"></a>
 
 ## 🛠️ Tech Stack
 
