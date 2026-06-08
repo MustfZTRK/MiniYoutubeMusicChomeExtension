@@ -22,7 +22,7 @@ YouTube Music'i Chrome tarayıcınızın side panel'inde çalıştırın. Ayrı 
 
 1. Bu repoyu indirin veya `git clone` ile klonlayın:
    ```bash
-   git clone https://github.com/KULLANICI/mini-youtube-music.git
+   git clone https://github.com/MustfZTRK/MiniYoutubeMusicChomeExtension.git
    ```
 
 2. Chrome'da `chrome://extensions` adresine gidin
@@ -75,7 +75,7 @@ YouTube Music'i Chrome tarayıcınızın side panel'inde çalıştırın. Ayrı 
 
 1. Download this repo or clone it:
    ```bash
-   git clone https://github.com/USERNAME/mini-youtube-music.git
+   git clone https://github.com/MustfZTRK/MiniYoutubeMusicChomeExtension.git
    ```
 
 2. Go to `chrome://extensions` in Chrome
