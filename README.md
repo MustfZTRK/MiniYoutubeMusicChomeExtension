@@ -14,9 +14,6 @@ YouTube Music'i Chrome tarayıcınızın side panel'inde çalıştırın. Ayrı 
 - ❤️ Beğen butonu
 - ➕ Şarkı listesine kaydet
 - 📋 Kuyruğa ekle
-- 🌙 Koyu tema (YouTube Music tasarım dili)
-- ⏰ Uyku zamanlayıcı
-- ⌨️ Kısayol tuşları desteği
 
 ### Kurulum
 
@@ -55,9 +52,6 @@ YouTube Music'i Chrome tarayıcınızın side panel'inde çalıştırın. Ayrı 
 - ❤️ Like button
 - ➕ Save to playlist
 - 📋 Add to queue
-- 🌙 Dark theme (YouTube Music design language)
-- ⏰ Sleep timer
-- ⌨️ Keyboard shortcuts support
 
 ### Installation
 
