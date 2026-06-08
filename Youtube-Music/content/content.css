@@ -1,0 +1,215 @@
+/* ========================================
+   Mini Youtube Music - Content Script Styles
+   Floating Pill Bar for YouTube Music
+   ======================================== */
+
+/* Pill Container */
+#ytm-helper-pill {
+  position: fixed;
+  bottom: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 16px;
+  background: rgba(28, 28, 28, 0.92);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 9999px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.5),
+              0 0 0 1px rgba(255, 255, 255, 0.08);
+  font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+  color: #ffffff;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  user-select: none;
+  animation: ytm-pill-slide-up 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes ytm-pill-slide-up {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+#ytm-helper-pill:hover {
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6),
+              0 0 0 1px rgba(255, 255, 255, 0.12);
+}
+
+/* Album Art Thumbnail */
+#ytm-helper-pill .pill-art {
+  width: 36px;
+  height: 36px;
+  border-radius: 6px;
+  object-fit: cover;
+  background: #3a3a3a;
+  flex-shrink: 0;
+}
+
+/* Song Info */
+#ytm-helper-pill .pill-info {
+  display: flex;
+  flex-direction: column;
+  max-width: 160px;
+  min-width: 80px;
+}
+
+#ytm-helper-pill .pill-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: #ffffff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.3;
+}
+
+#ytm-helper-pill .pill-artist {
+  font-size: 11px;
+  color: #aaaaaa;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.3;
+}
+
+/* Control Buttons */
+#ytm-helper-pill .pill-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border: none;
+  border-radius: 50%;
+  background: transparent;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  flex-shrink: 0;
+  padding: 0;
+}
+
+#ytm-helper-pill .pill-btn:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+#ytm-helper-pill .pill-btn:active {
+  transform: scale(0.9);
+}
+
+#ytm-helper-pill .pill-btn svg {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+}
+
+#ytm-helper-pill .pill-btn.play-btn {
+  width: 36px;
+  height: 36px;
+  background: #ffffff;
+  color: #0f0f0f;
+}
+
+#ytm-helper-pill .pill-btn.play-btn:hover {
+  background: #ffffff;
+  transform: scale(1.05);
+}
+
+#ytm-helper-pill .pill-btn.play-btn:active {
+  transform: scale(0.95);
+}
+
+#ytm-helper-pill .pill-btn.play-btn svg {
+  width: 20px;
+  height: 20px;
+}
+
+/* Like/Dislike Buttons */
+#ytm-helper-pill .pill-btn.liked {
+  color: #3ea6ff;
+}
+
+#ytm-helper-pill .pill-btn.disliked {
+  color: #ff4e45;
+}
+
+/* Progress Indicator */
+#ytm-helper-pill .pill-progress {
+  width: 60px;
+  height: 3px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 2px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+#ytm-helper-pill .pill-progress-fill {
+  height: 100%;
+  background: #ff0000;
+  border-radius: 2px;
+  width: 0%;
+  transition: width 0.5s linear;
+}
+
+/* Close Button */
+#ytm-helper-pill .pill-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border: none;
+  border-radius: 50%;
+  background: transparent;
+  color: #717171;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  flex-shrink: 0;
+  margin-left: 4px;
+}
+
+#ytm-helper-pill .pill-close:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+}
+
+#ytm-helper-pill .pill-close svg {
+  width: 14px;
+  height: 14px;
+  fill: currentColor;
+}
+
+/* Separator */
+#ytm-helper-pill .pill-separator {
+  width: 1px;
+  height: 24px;
+  background: rgba(255, 255, 255, 0.12);
+  flex-shrink: 0;
+}
+
+/* Dragging State */
+#ytm-helper-pill.dragging {
+  cursor: grabbing;
+  transition: box-shadow 0.2s ease;
+}
+
+/* Hidden State */
+#ytm-helper-pill.hidden {
+  opacity: 0;
+  transform: translateX(-50%) translateY(20px);
+  pointer-events: none;
+}
+
+/* YouTube Music Dark Mode Adaptation */
+html:not(.dark) #ytm-helper-pill,
+body:not(.dark-mode) #ytm-helper-pill {
+  /* Keep dark pill even on light pages for contrast */
+}
