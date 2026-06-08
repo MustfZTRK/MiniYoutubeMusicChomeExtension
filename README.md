@@ -40,7 +40,7 @@ YouTube Music'i Chrome tarayıcınızın side panel'inde çalıştırın. Ayrı 
 - 🔊 butonuna tıklayarak dikey ses slider'ını açın
 
 ### Ekran Görüntüleri
-<a href="https://ibb.co/WWCB0GJc"><img src="https://i.ibb.co/rG953FrZ/Ekran-g-r-nt-s-2026-06-08-084639.png" alt="Ekran görüntüsü 2026 06 08 084639" border="0"></a>
+<a href="https://ibb.co/mF8wF51S"><img src="https://i.ibb.co/vvYGv4gD/Ekran-g-r-nt-s-2026-06-08-113556.png" alt="Ekran görüntüsü 2026 06 08 113556" border="0"></a>
 
 ## 🇬🇧 English
 
@@ -79,7 +79,7 @@ YouTube Music'i Chrome tarayıcınızın side panel'inde çalıştırın. Ayrı 
 
 ### Screenshots
 
-<a href="https://ibb.co/WWCB0GJc"><img src="https://i.ibb.co/rG953FrZ/Ekran-g-r-nt-s-2026-06-08-084639.png" alt="Ekran görüntüsü 2026 06 08 084639" border="0"></a>
+<a href="https://ibb.co/mF8wF51S"><img src="https://i.ibb.co/vvYGv4gD/Ekran-g-r-nt-s-2026-06-08-113556.png" alt="Ekran görüntüsü 2026 06 08 113556" border="0"></a>
 
 ## 🛠️ Tech Stack
 
